@@ -29,7 +29,7 @@ In the above equation, R represents therefore the radius of the Ring Resonator, 
 
 This repository also contains the second program, for a double ring setup, which changes only the size of the cell, and offsets now two rings to be at a distance $r_{offset}$ from the origin, equal to some arbitrary gap between the two rings plus the radius of the ring. Two rings are simulation via defining a second ring at different position, with elsewise completely the same parameters. The gap size is still altered as above, as the formula holds for two rings. 
 
-Finally, as demonstrated in the second segment of each notebook, the plot may be altered and reconfigured to represent a desired area for analysis, and via typical pyplot means may be altered in title and axes.
+Finally, as demonstrated in the second segment of each notebook, the plot may be altered and reconfigured to represent a desired area for analysis, and via typical pyplot means may be altered in title and axes. Once run, this segment saves the CSV file for each wavelength/transmittance graph produced by iterating the main loop, and produces one final figure of each iteration placed onto a single graph.
 
 **Known Issues/Possible Improvements**
 
