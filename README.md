@@ -19,6 +19,8 @@ which iterates individual values of $w_{gap, i}$ for a range $w_{unit}$, dividin
 
 The powerpoint supplied to Dr. Huanqing Ye of the University of Manchester Photon Science Institute as to installation procedure has been included in this repository, and may be followed as the procedure for installation.
 
+A note on this powerpoint is that it mentions use of jupyter notebook, however replacing 'jupyter notebook' with 'jupyter lab' gives the much more fleshed out jupyter lab interface, similar to something like Visual Studio Code.
+
 **Other Technical Details**
 
 Within this program, chosen radius was not arbitrary, and was in fact calculated to cause ORR resonance at 1550 nm wavelength within the medium, via the equation:
