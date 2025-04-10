@@ -37,5 +37,7 @@ Finally, as demonstrated in the second segment of each notebook, the plot may be
 
 The program has variable 'frames' intended to be used to produce animations natively in the jupyter notebook file, to be saved to the device, instead of producing a gif via Linux CLI tools using many individual frames. This was not completed, as the manner in which figures are produced interacting with MEEP's own functions caused some errors. It was found that no animations were particularly needed for the final results, and so this feature was sidelines, but likely could be implemented with some effort. 
 
-This program could be converted for MEEP's support of GPU procesisng, in order to possibly decrease computation time, which could therefore allow more precise data or more iterations, in less time. 
+This program could be converted for MEEP's support of GPU procesisng, in order to possibly decrease computation time, which could therefore allow more precise data or more iterations, in less time.
+
+As a small note, the uploaded file for the double ring states that the graph is for 0.6-1.0 micrometers, but is in fact 0.1-0.5 micrometers by the formula, the title was simply not manually updated.
 
