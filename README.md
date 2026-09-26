@@ -19,7 +19,7 @@ which iterates individual values of $w_{gap, i}$ for a range $w_{unit}$, dividin
 
 The powerpoint supplied to Dr. Huanqing Ye of the University of Manchester Photon Science Institute as to installation procedure has been included in this repository, and may be followed as the procedure for installation.
 
-A note on this powerpoint is that it mentions use of jupyter notebook, however replacing 'jupyter notebook' with 'jupyter lab' gives the much more fleshed out jupyter lab interface, similar to something like Visual Studio Code.
+A note on this powerpoint is that it mentions use of jupyter notebook, however replacing 'jupyter notebook' with 'jupyter lab' gives the much more fleshed out jupyter lab IDE, similar to something like Visual Studio Code.
 
 **Other Technical Details**
 
@@ -35,7 +35,7 @@ Finally, as demonstrated in the second segment of each notebook, the plot may be
 
 **Known Issues/Possible Improvements**
 
-The program has variable 'frames' intended to be used to produce animations natively in the jupyter notebook file, to be saved to the device, instead of producing a gif via Linux CLI tools using many individual frames. This was not completed, as the manner in which figures are produced interacting with MEEP's own functions caused some errors. It was found that no animations were particularly needed for the final results, and so this feature was sidelines, but likely could be implemented with some effort. 
+The program has variable 'frames' intended to be used to produce animations natively in the jupyter notebook file, to be saved to the device, instead of producing a gif via Linux CLI tools using many individual frames. This was not completed, as the manner in which figures are produced interacting with MEEP's own functions caused some errors. It was found that no animations were particularly needed for the final results, and so this feature was sidelined, but likely could be implemented with some effort. 
 
 This program could be converted for MEEP's support of GPU procesisng, in order to possibly decrease computation time, which could therefore allow more precise data or more iterations, in less time.
 
